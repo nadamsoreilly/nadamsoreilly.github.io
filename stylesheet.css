@@ -1,6 +1,10 @@
 body {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    background-color: Gainsboro;
 }
 a {
-	color: LawnGreen;
+	color: Crimson;
+}
+em.email {
+	color: Crimson;
 }
