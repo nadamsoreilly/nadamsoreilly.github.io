@@ -70,9 +70,25 @@
 	<li>Em Dash (&#x2014;): &#x26;#x2014;</li>
 	<li>En Dash (&#x2013;): &#x26;#x2013;</li>
 	<li>Greater Than: (&#x3e;): &#x26;#x3e;</li>
-	<li>Greater Than: (&#x3c;): &#x26;#x3c;</li>
+	<li>Less Than: (&#x3c;): &#x26;#x3c;</li>
 	<li>Ampersand: (&#x26;): &#x26;#x26;</li>
 </ul>
 <h3>Passthroughs</h3>
+<p>Passthroughs are used in asciidoc markup to have a section use HTML markup. This is often done because HTML tends to be more precise than asciidoc, making it necessary to render complex areas correctly. There are two types of passthroughs <em>inline</em> and <em>block</em>.</p>
+<dl>
+	<dt>Inline</dt>
+	<dd>Used for small sections. The passthrough is written like so: pass:[&#x3c;<em>tag</em>&#x3e;passthrough section&#x3c;<em>/tag</em>&#x3e;].</dd>
+	<dd>Example: "...and we'll return the pass:[&#x3c;code&#x3e;TaskInfo&#x3c;/code&#x3e;]s that will launch those pass:[&#x3c;code&#x3e;Job&#x3c;/code&#x3e;]s."</dd>
+	<dt>Block</dt>
+	<dd>Used for larger sections that span multiple lines. Passthrough sections are written as four plus signs (+) above and below the section.</dd>
+	<dd>Example: ++++
+				 &#x3c;pre data-type="programlisting"&#x3e;
+				 # &#x3c;strong&#x3e;zbid&#x3c;/strong&#x3e;
+				 Dev    	Product String	Serial Number
+				 002:005	KILLERB001        [DELETED]
+				 &#x3c;/pre&#x3e;
+				 ++++
+	</dd>
+</dl>
 </body>
 </html>
