@@ -28,3 +28,7 @@ nav.toc {
 	border-style: groove;
 	border-color:DarkSalmon;
 }
+figcaption {
+	font-style: italic;
+	font-size: 10px;
+}
