@@ -25,4 +25,6 @@ strong.def {
 nav.toc {
 	background-color: darkslategray;
 	color:DarkSalmon;
+	border-style: groove;
+	border-color:DarkSalmon;
 }
