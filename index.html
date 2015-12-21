@@ -104,13 +104,16 @@
 <dl>
 	<dt>git clone</dt>
 	<dd>This "clones" (i.e., makes a copy of) the repo. Once a repo is cloned, you can make changes to the files in the repo locally. This will usually be the first command you run. To use type: "git clone <em>Git URL</em>". You can find the Git URL on the Project Settings page for an Atlas projects.</dd>
-	<dd>Example:<br />
+	<dd><strong class="def">Example:</strong><br />
 		git clone git@git.atlas.oreilly.com:oreillymedia/client-side-data-storage.git
 	</dd>
 	<dt>git pull</dt>
 	<dd>This "pulls" any changes from the central repo (Atlas), and incorporates them into your local files. You should do this before making any local changes, to make sure your local repo is up to date.</dd>
 	<dt>git commit</dt>
 	<dd>This finalizes any changes you've made locally, and readies them to be pushed to the central repo</dd>
+	<dd>This takes some additional arguments, you will generally use "-a" and "-m". -a means that you are committing changes made in <em>all</em> the files in the repo. -m means that you are including a message, and is followed by a message in quotes. The message should indicate what the commit did.</dd>
+	<dd><strong class="def">Example:</strong><br />
+		git commit -a -m "Entering edits into Chapter 1, 2, and 3"</dd>
 	<dt>git push</dt>
 	<dd>This "pushes" any committed changes to the central repo. Basically, any changes you made locally are added into the Atlas repo</dd>
 	<dt>git add</dt>
@@ -122,8 +125,9 @@
 <p>There are usually several listings for a book based on format, but the most commonly used one is the "Tech Book" listing, which is the print book.</p>
 <h3>Where to Find Things in the PDB</h3>
 <p><strong class="def">Final Page Count</strong>: Producion tab. Prod Eds enter this number when the book is nearly complete. Calculated by adding the interior PDF plus any backmatter ads and blanks (see <a href="https://intranet.oreilly.com/confluence/display/DCPS/Printer+Pagecount+Specifications">Printer Pagecount Specifications</a>).</p>
-<p><strong class="def">Back Cover Copy</strong>: Design tab &#x2192; Cover Req sub tab. The Ed Stephenson will send this to the Prod Ed, who will enter this in to the PDB. The design team will reference this when creating the final cover.</p>
+<p><strong class="def">Back Cover Copy</strong>: Design tab &#x2192; Cover Req sub tab. Ed Stephenson will send this to the Prod Ed, who will enter this in to the PDB. The design team will reference this when creating the final cover.</p>
 <p><strong class="def">Retail Availabity Date</strong>: Manufacturing tab. You need this date in Post-Production, and sometimes authors will ask when their book will be available. This date is based on the FTP date, which Prod Eds schedule with Manufacturing.</p>
 <p><strong class="def">Consumer Short Text</strong>: Marketing tab. This is needed for Post-Prod. It's basically a short summary for marketing purposes</p>
+<p><strong class="def">Shelving Category</strong>: Production tab. This is an important element on the back cover, and should be checked when review draft cover mechs.</p>
 </body>
 </html>
