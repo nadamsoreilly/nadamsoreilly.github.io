@@ -1,6 +1,6 @@
 body {
 	background-color: antiquewhite;
-	font: "Garamond";
+	font-family: "FF Tisa Pro", "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 }
 div.topheader {
@@ -8,6 +8,8 @@ div.topheader {
 	color: darkslategray;
 	height: 200px;
 	text-align: center;
+}
+div.topheader.h1 {
 	vertical-align: center;
 }
 div.bodytext {
