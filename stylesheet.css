@@ -10,4 +10,6 @@ div.topheader {
 }
 div.bodytext {
 	background-color: goldenrod;
+	margin-left: 100px;
+	margin-right: 100px;
 }
