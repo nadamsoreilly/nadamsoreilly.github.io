@@ -2,3 +2,6 @@ div.topheader {
 	background-color: darkslategray;
 	height: 600em;
 }
+div.bodytext {
+	background-color: goldenrod;
+}
