@@ -1,6 +1,6 @@
 body {
 	background-color: antiquewhite;
-	font: garamond;
+	font: "Garamond";
 
 }
 div.topheader {
@@ -8,6 +8,7 @@ div.topheader {
 	color: darkslategray;
 	height: 200px;
 	text-align: center;
+	vertical-align: center;
 }
 div.bodytext {
 	background-color: antiquewhite;
