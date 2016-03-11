@@ -4,7 +4,7 @@ body {
 
 }
 div.topheader {
-	background-color: khaki;
+	background-color: moccasin;
 	color: darkslategray;
 	height: 200px;
 	display: flex;
@@ -16,4 +16,10 @@ div.bodytext {
 	color: darkslategray;
 	margin-left: 100px;
 	margin-right: 100px;
+}
+button {
+	background-color: moccasin;
+	text-align: center;
+	padding: 10px 10px;
+	margin: 5px 5px;
 }
