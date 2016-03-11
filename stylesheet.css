@@ -7,10 +7,9 @@ div.topheader {
 	background-color: khaki;
 	color: darkslategray;
 	height: 200px;
-	text-align: center;
-}
-div.topheader.h1 {
-	vertical-align: center;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
 }
 div.bodytext {
 	background-color: antiquewhite;
