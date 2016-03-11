@@ -1,6 +1,12 @@
+body {
+	background-color: hotpink;
+
+}
 div.topheader {
 	background-color: darkslategray;
-	height: 600px;
+	color: aqua;
+	height: 200px;
+	text-align: center;
 }
 div.bodytext {
 	background-color: goldenrod;
