@@ -17,7 +17,7 @@ div.bodytext {
 	margin-left: 100px;
 	margin-right: 100px;
 }
-button {
+a.button {
 	background-color: moccasin;
 	text-align: center;
 	padding: 10px 10px;
