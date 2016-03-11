@@ -1,0 +1,34 @@
+body {
+    font-family: "FF Tisa Pro", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    background-color: Gainsboro;
+}
+a {
+	color: Crimson;
+}
+a.toc {
+	color:DarkSalmon;
+}
+em.email {
+	color: Crimson;
+}
+h1 {
+	text-align: center;
+}
+dt {
+	color: Crimson;
+	font-size: 18px;
+	font-weight: bold;
+}
+strong.def {
+	color:darkslategray;
+}
+nav.toc {
+	background-color: darkslategray;
+	color:DarkSalmon;
+	border-style: groove;
+	border-color:DarkSalmon;
+}
+figcaption {
+	font-style: italic;
+	font-size: 14px;
+}

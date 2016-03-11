@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<h1>Resources for New Production Editors</h1>
+<nav class="toc">
+  <h2 class="toc">Table of Contents</h2>
+  <ul class="toc">
+    <li><a class="toc" href="#commonly_used_terms">Commonly Used Terms</a></li>
+    <li><a class="toc" href="#links">Links</a></li>
+    <li><a class="toc" href="#important_email_addresses">Important Email Addresses</a></li>
+    <li><a class="toc" href="#markup_tips">Markup Tips</a></li>
+    <li><a class="toc" href="#git">Git</a></li>
+    <li><a class="toc" href="#product_database">The Product Database</a></li>
+  </ul>
+</nav>
+<h2 id="commonly_used_terms">Commonly Used Terms</h2>
+<p>Here are some of the commonly used terms/names at O'Reilly:</p>
+<dl>
+	<dt>FTP Date</dt>
+	<dd>Files to Printer Date. The date that you send the completed book to the printer. The "last FTP date" is the last date of the month that you can send a book to the printer and have it released that same month.</dd>
+	<dt>OTD</dt>
+	<dd>Out the Door. A final review performed by a senior member of the production staff. Usually done the day before the FTP date. About a week before the FTP date, send a request to <em class="email">otd@oreilly.com</em> asking for someone to do the OTD.</dd>
+	<dt>Touchstone</dt>
+	<dd>Touchstone is the shared server at O'Reilly, and is accessed via the command line. You will need to log onto Touchstone to perform some functions.</dd>
+	<dt>SVN</dt>
+	<dd>Subversion. This is a version control system that is used to hold covers, PDFs, and a few other things. This will mostly be used during Post-Production.</dd>
+	<dt>Intake</dt>
+	<dd>Intake is process during which the Tools team takes the content submitted by the editor and makes it production ready. This is generally the first phase of production, and is started automatically once a book arrives in Production. Once it's done, Tools will send an email with any relevant notes.</dd>
+	<dt>Conversion</dt>
+	<dd>Conversion is the process in which books written in MS Word are converted into HTML and imported into Atlas. Unlike Intake, this is usually done after the Copyedit phase.</dd>
+	<dt>Vendor</dt>
+	<dd>A vendor is a freelancer who works on a book. We generally use vendors for copyediting, proofreading, and indexing. Occasionally a vendor will help with entering edits. Vendors are hired by Melanie Yarbrough. Production Editors are responsible for requesting vendors to help with their project.</dd>
+	<dt>1C/4C</dt>
+	<dd>1 Color / 4 Color. This refers to the number of inks used in the printing process. 1 Color is grayscale and is used in the interior for the majority of O'Reilly books. 4 Color is also known as CMYK and is used in the interior of select O'Reilly books, as well as most Make: books. Production Editors will have to run PitStop Profiles to convert PDFs to the correct color profile before sending the final files to the printer.</dd>
+	<dt>Repo</dt>
+	<dd>Short for repository. Basically, it's the folder containing all the files that make up the book. Repos are kept in Atlas, and can be found at the Atlas URLs.</dd>
+	<dt>PDB</dt>
+	<dd>Product Database. Where all the information about a book is stored.</dd>
+</dl>
+<h2 id="links">Links</h2>
+<h3>Production Workflows</h3>
+<p>There are a few main workflows used by Production Editors. The links below detail the steps taken when producing books, reports, and website posts.
+<p><a href="https://intranet.oreilly.com/confluence/display/DCPS/Frontlist+book+projects">Frontlist Book Projects</a>: a step-by-step description of the production process for new books.</p>
+<p><a href="https://intranet.oreilly.com/confluence/display/DCPS/Production+Process+for+Reports">Production Process for Reports</a>: a guide to the production process for reports</p>
+<p><a href="https://github.com/oreillymedia/prototype-api/wiki/Importing-Post-Contents">Importing Post Contents</a>: a guide explaining how to import content onto oreilly.com</p>
+<p><a href="https://intranet.oreilly.com/confluence/display/DCPS/Post-Production+%28combined%29">Post-Production</a>: a guide to the steps taken once a book has been sent to the printer</p>
+<h3>Markup Reference</h3>
+<p>O'Reilly books are generally marked up in either HTMLbook or Asciidoc. The links below are references for how to use these languages.</p>
+<p><a href="http://oreillymedia.github.io/HTMLBook/">HTMLBook</a>: a general reference to the HTMLBook language</p>
+<p><a href="http://docs.atlas.oreilly.com/writing_in_asciidoc.html">Asciidoc</a>: a general reference to the Asciidoc language</p>
+<p><a href="https://intranet.oreilly.com/confluence/display/DCPS/Atlas+Production">Atlas Production</a>: a guide showing how to use markup language in the context of the Atlas software</p>
+<h3>Printer Info</h3>
+<p>Most O'Reilly books are printed at LSI. Some books requiring more advanced color printing go elsewhere. Once a book is ready, the production editor sends the interior PDF and the cover PDF to the printer. These links detail how to send books to the different printers.</p>
+<p><a href="https://intranet.oreilly.com/confluence/display/DCPS/Sending+LSI+Files+to+CoreSource">Sending LSI Files to CoreSource</a>: this is how to send books to LSI</p>
+<p><a href="https://intranet.oreilly.com/confluence/display/DCPS/Transcontinental+Interglobe">Transcontinental Interglobe</a>: this is how to send books to Transcontintental Interglobe</p>
+<p><a href="https://intranet.oreilly.com/confluence/display/DCPS/CPD+Printer+Codes">Printer Codes</a>: a list of the various printer codes that go on the copyright pages. It also notes when a printer is located outside the United States</p>
+<p><a href="https://intranet.oreilly.com/confluence/display/DCPS/Printer+Pagecount+Specifications">Printer Pagecount Specifications</a>: a list of the pagecount specifications for the different printers. The final pagecount for books sent to the printer must conform to these specifications.
+<h3>Miscellaneous</h3>
+<p><a href="https://intranet.oreilly.com/confluence/display/DCPS/PitStop+Profiles">PitStop Profiles</a>: a list of commonly used PitStop profiles. PitStop profiles are scripts you can run on a PDF using the command line that will change the color or alter the trim size. This is usually done in order to meet printer specifications. Note that you must be on the Touchstone server to use these profiles</p>
+<p><a href="http://chimera.labs.oreilly.com/books/1230000000969/index.html">O'Reilly Stylesheet and Word List</a>: the stylesheet and word list used for all O'Reilly books. Anything not specifically listed here follows the Chicago Manual of Style</p>
+<h2 id="important_email_addresses">Important Email Addresses</h2>
+<h3>People</h3>
+<p><em class="email">rdemarest@oreilly.com</em>: Rebecca Demarest handles everything involving figures and illustration. Any edits to figures should be sent to her.</p>
+<p><em class="email">ed@oreilly.com</em>: Ed Stephenson writes all the back cover copy and marketing descriptions for books and reports</p>
+<p><em class="email">slynch@oreilly.com</em>: Sam Lynch works with the CSS book themes, and handles most of the tickets sent to the stylesheets alias</p>
+<p><em class="email">cpappas@oreilly.com</em>: Chris Pappas works in the Tools team, and handles most of the tickets sent to the toolsreq alias</p>
+<p><em class="email">aseronick@oreilly.com</em>: Andy Seronick handles everything involving ebooks and handles most of the tickers sent to the pagecount alias
+<h3>Aliases</h3>
+<p><em class="email">covereq@oreilly.com</em>: contact this alias for all questions and request about covers for books and reports</p>
+<p><em class="email">mfg@oreilly.com</em>: contact this alias to set/change FTP dates, and cc them whenver you send anything to the printer</p>
+<p><em class="email">stylesheets@oreilly.com</em>: contact this alias for any questions or concerns related to themes/CSS. It will create a support ticket</p>
+<p><em class="email">toolsreq@oreilly.com</em>: contact this alias for any questions or concerns related to markup/Atlas. It will create a support ticket</p>
+<p><em class="email">solutions@oreilly.com</em>: contact this alias for any IT questions or concerns. It will create a support ticket</p>
+<p><em class="email">otd@oreilly.com</em>: contact this alias to request someone to do an OTD check</p>
+<p><em class="email">ormcovrev@oreilly.com</em>: send the draft cover mech to this alias for review</p>
+<p><em class="email">pagecount@oreilly.com</em>: after you've completed post-production, you send an email to this alias indicating that the book is ready to be worked on by the digital distribution team. It will create a ticket</p>
+<p><em class="email">digidist@oreilly.com</em>: if the book you're working on contains example code, contact this alias and send them the code, or send them a link to the code, so they can add a link to the catalog page. It will create a ticket</p>
+<h2 id="markup_tips">Markup Tips</h2>
+<p>Markup language is code used to translate raw text into a formatted book. When a book gets to production and finishes Intake it will be fully marked up. Prod Eds then edit markup as needed during the various review periods. There are two main ways to edit the markup: Atlas or Locally. Editing in Atlas is fast and direct, while editing locally (using <a href="#git">Git</a>) allows a little more customization and control. You can do either or both, as you prefer.
+<h3>Entities</h3>
+<p>Entities are HTML codes that translate into special characters. They are useful for inserting characters that are not easily written on a normal keyboard, or in cases where you want to insert a character that would otherwise be interpreted as markup. Several commonly used entities are list below:</p>
+<ul>
+	<li>Em Dash (&#x2014;): &#x26;#x2014;</li>
+	<li>En Dash (&#x2013;): &#x26;#x2013;</li>
+	<li>Greater Than: (&#x3e;): &#x26;#x3e;</li>
+	<li>Less Than: (&#x3c;): &#x26;#x3c;</li>
+	<li>Ampersand: (&#x26;): &#x26;#x26;</li>
+</ul>
+<h3>Passthroughs</h3>
+<p>Passthroughs are used in asciidoc markup to have a section use HTML markup. This is often done because HTML tends to be more precise than asciidoc, making it necessary to render complex areas correctly. There are two types of passthroughs <em>inline</em> and <em>block</em>.</p>
+<dl>
+	<dt>Inline</dt>
+	<dd>Used for small sections. The passthrough is written like so: pass:[&#x3c;<em>tag</em>&#x3e;passthrough section&#x3c;<em>/tag</em>&#x3e;].</dd>
+	<dd>Example: "...and we'll return the pass:[&#x3c;code&#x3e;TaskInfo&#x3c;/code&#x3e;]s that will launch those pass:[&#x3c;code&#x3e;Job&#x3c;/code&#x3e;]s."</dd>
+	<dt>Block</dt>
+	<dd>Used for larger sections that span multiple lines. Passthrough sections are written as four plus signs (+) above and below the section.</dd>
+	<dd>Example: <br />
+		++++<br />
+		&#x3c;pre data-type="programlisting"&#x3e;<br />
+		# &#x3c;strong&#x3e;zbid&#x3c;/strong&#x3e;<br />
+		Dev    	Product String	Serial Number<br />
+		002:005	KILLERB001        [DELETED]<br />
+		&#x3c;/pre&#x3e;<br />
+		++++
+	</dd>
+</dl>
+<h2 id="git">Git</h2>
+<p>Git is the version control system used by Atlas. Basically, Git allows users to work locally (i.e. your computer) and then merge their changes back to the central repository (i.e., Atlas). You can use Git via the command line (i.e. the Terminal app on Mac). This is useful at times when you may not have internet access, or if you prefer to use a text editor software rather than the browser-based Atlas code editor.</p>
+<h3>Installing Git</h3>
+<p>Before you can use Git, it has to be installed. Go to the <a href="http://git-scm.com/download/mac">official Git site</a>, and follow the instructions.</p>
+<h3>Using Git</h3>
+<p>Git can be used for a variety of things, but luckily we only need to use a few simple commands (listed below).</p>
+<dl>
+	<dt>git clone</dt>
+	<dd>This "clones" (i.e., makes a copy of) the repo onto your computer. Once a repo is cloned, you can make changes to the files in the repo locally. This will usually be the first command you run. To use type: "git clone <em>Git URL</em>". You can find the Git URL on the Project Settings page for an Atlas projects.</dd>
+	<dd><strong class="def">Example:</strong><br />
+		git clone git@git.atlas.oreilly.com:oreillymedia/client-side-data-storage.git
+	</dd>
+	<dd><figure>
+			<img src="http://i.imgur.com/7hSv3WC.png">
+			<figcaption>The Git URL in Atlas</figcaption>
+		</figcaption>
+	</dd>
+	<dd>
+		<figure>
+			<img src="http://i.imgur.com/Qcsjiy9.png">
+			<figcaption>Cloning a repo for a book...</figcaption>
+		</figure>
+	</dd>
+	<dd>
+		<figure>
+			<img src="http://i.imgur.com/nbFxQih.png">
+			<figcaption>...creates a copy of the repo on your computer</figcaption>
+		</figure>
+	</dd>
+	<dt>git pull</dt>
+	<dd>This "pulls" any changes from the central repo (Atlas), and incorporates them into your local files. You should do this before making any local changes, to make sure your local repo is up to date.</dd>
+	<dt>git commit</dt>
+	<dd>This finalizes any changes you've made locally, and readies them to be pushed to the central repo</dd>
+	<dd>This takes some additional arguments, you will generally use "-a" and "-m". -a means that you are committing changes made in <em>all</em> the files in the repo. -m means that you are including a message, and is followed by a message in quotes. The message should indicate what the commit did.</dd>
+	<dd><strong class="def">Example:</strong><br />
+		git commit -a -m "Entering edits into Chapter 1, 2, and 3"</dd>
+	<dt>git push</dt>
+	<dd>This "pushes" any committed changes to the central repo. Basically, any changes you made locally are added into the Atlas repo</dd>
+	<dt>git add</dt>
+	<dd>Similar to git commit, but adding an entirely new file to the repo, rather than changing a file.</dd>
+	<dd><strong class="def">Example:</strong><br />
+		git add cover.png
+	</dd>
+</dl>
+<h2 id="product_database">The Product Database</h2>
+<p>The Product Database (PDB) contains a great deal of information about every book, and you will likely refer to it often. It can be a little daunting at first, but once you figure out where things are it's not too bad.</p>
+<p>The PDB is split into several tabs based on departments (Editorial, Production, Design, Manufacturing, and Marketing).</p>
+<p>There are usually several listings for a book based on format, but the most commonly used one is the "Tech Book" listing, which is the print book.</p>
+<h3>Where to Find Things in the PDB</h3>
+<figure>
+	<img src="http://i.imgur.com/eSt8jto.png">
+	<figcaption>The tabs and subtabs in the PDB</figcaption>
+</figure>
+<p><strong class="def">Final Page Count</strong>: Producion tab. Prod Eds enter this number when the book is nearly complete. Calculated by adding the interior PDF plus any backmatter ads and blanks (see <a href="https://intranet.oreilly.com/confluence/display/DCPS/Printer+Pagecount+Specifications">Printer Pagecount Specifications</a>).</p>
+<p><strong class="def">Back Cover Copy</strong>: Design tab &#x2192; Cover Req sub tab. Ed Stephenson will send this to the Prod Ed, who will enter this in to the PDB. The design team will reference this when creating the final cover.</p>
+<p><strong class="def">Retail Availabity Date</strong>: Manufacturing tab. You need this date in Post-Production, and sometimes authors will ask when their book will be available. This date is based on the FTP date, which Prod Eds schedule with Manufacturing.</p>
+<p><strong class="def">Consumer Short Text</strong>: Marketing tab. This is needed for Post-Prod. It's basically a short summary for marketing purposes.</p>
+<p><strong class="def">Shelving Category</strong>: Production tab. This is an important element on the back cover, and should be checked when reviewing draft cover mechs.</p>
+</body>
+</html>
