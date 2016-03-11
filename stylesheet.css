@@ -1,16 +1,16 @@
 body {
-	background-color: floralwhite;
+	background-color: antiquewhite;
 
 }
 div.topheader {
-	background-color: silver;
-	color: slategray;
+	background-color: khaki;
+	color: darkslategray;
 	height: 200px;
 	text-align: center;
 }
 div.bodytext {
 	background-color: antiquewhite;
-	color: lightslategray;
+	color: darkslategray;
 	margin-left: 100px;
 	margin-right: 100px;
 }
