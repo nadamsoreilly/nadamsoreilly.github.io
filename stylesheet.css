@@ -6,7 +6,7 @@ body {
 div.topheader {
 	background-color: moccasin;
 	color: darkslategray;
-	height: 200px;
+	height: 200em;
 	display: flex;
 	justify-content: center; /* align horizontal */
 	align-items: center; /* align vertical */
@@ -14,14 +14,14 @@ div.topheader {
 div.bodytext {
 	background-color: antiquewhite;
 	color: darkslategray;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 100em;
+	margin-right: 100em;
 }
 a.button {
 	background-color: moccasin;
 	text-align: center;
-	padding: 10px 10px;
-	margin: 5px 5px;
+	padding: 10em 10em;
+	margin: 5em 5em;
 }
 a.button:hover {
 	color: moccasin;
