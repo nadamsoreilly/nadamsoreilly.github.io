@@ -33,10 +33,10 @@ a.button {
 	margin: 1em 1em;
 }
 a.button:hover {
-	color: moccasin;
+	color: khaki;
 	background-color: darkslategrey;
 }
 a.button:active {
-	color: oldlace;
+	color: moccasin;
 	background-color: dimgrey;
 }
