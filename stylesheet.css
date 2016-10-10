@@ -20,8 +20,8 @@ div.bodytext {
 a.button {
 	background-color: moccasin;
 	text-align: center;
-	padding: 10em 10em;
-	margin: 5em 5em;
+	padding: 1em 1em;
+	margin: 1em 1em;
 }
 a.button:hover {
 	color: moccasin;
