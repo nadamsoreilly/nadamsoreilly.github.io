@@ -6,7 +6,7 @@ body {
 div.topheader {
 	background-color: moccasin;
 	color: darkslategray;
-	height: 200em;
+	height: 20em;
 	display: flex;
 	justify-content: center; /* align horizontal */
 	align-items: center; /* align vertical */
@@ -14,8 +14,8 @@ div.topheader {
 div.bodytext {
 	background-color: antiquewhite;
 	color: darkslategray;
-	margin-left: 100em;
-	margin-right: 100em;
+	margin-left: 10em;
+	margin-right: 10em;
 }
 a.button {
 	background-color: moccasin;
