@@ -27,3 +27,7 @@ a.button:hover {
 	color: moccasin;
 	background-color: darkslategrey;
 }
+a.button:active {
+	color: dimgrey;
+	background-color: oldlace;
+}
