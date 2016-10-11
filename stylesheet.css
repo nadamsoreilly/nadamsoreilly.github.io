@@ -40,3 +40,13 @@ a.button:active {
 	color: moccasin;
 	background-color: dimgrey;
 }
+figure {
+	display: block;
+	margin: 1em 1em 1em 1em;
+	border: 1em solid khaki;
+
+}
+figcaption {
+	font-style: italic;
+	font-size: 75%;
+}
