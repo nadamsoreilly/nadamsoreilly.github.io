@@ -57,3 +57,6 @@ h1 {
 p::first-line {
 	color: dimgrey;
 }
+p::first-letter {
+	font-size: 150%;
+}
