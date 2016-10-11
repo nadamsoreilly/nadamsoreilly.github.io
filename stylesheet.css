@@ -41,7 +41,7 @@ a.button:active {
 	background-color: dimgrey;
 }
 figure {
-	margin: 1em 1em 1em 1em;
+	padding: 1em 1em 1em 1em;
 	border: 1em solid khaki;
 	background-color: khaki;
 
