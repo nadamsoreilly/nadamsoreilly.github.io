@@ -41,7 +41,6 @@ a.button:active {
 	background-color: dimgrey;
 }
 figure {
-	display: block;
 	margin: 1em 1em 1em 1em;
 	border: 1em solid khaki;
 
@@ -49,4 +48,5 @@ figure {
 figcaption {
 	font-style: italic;
 	font-size: 75%;
+	background-color: khaki;
 }
