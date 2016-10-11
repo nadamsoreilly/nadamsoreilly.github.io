@@ -51,6 +51,9 @@ figcaption {
 	font-size: 80%;
 	background-color: khaki;
 }
-p::first-line {
+h1 {
 	font-variant: small-caps;
+}
+p::first-line {
+	color: dimgrey;
 }
