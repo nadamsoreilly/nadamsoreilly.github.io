@@ -48,6 +48,9 @@ figure {
 }
 figcaption {
 	font-style: italic;
-	font-size: 75%;
+	font-size: 80%;
 	background-color: khaki;
+}
+p::first-line; {
+	font-variant: small-caps;
 }
